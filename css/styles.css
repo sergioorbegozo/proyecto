@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('../img/asperger.jpg') no-repeat;
+    background-size: 1060px 550px;
+    background-color: #51d1f6;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0;
+}
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.header {
+    background: #51d1f6;
+    color: white;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    text-align: center;
+}
+    .header a {
+        color: white;
+        text-decoration: none;
+    }
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.vermenu {
+    display: none;
+}
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+    display: inline-block;
+}
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.5s ease-in-out;
+    }
+    .navigation ul li a:hover {
+        color: #b9b9b9;
+        transform: scale(1.1);
+        background: rgba(0, 0, 0, .4);
+        color: white;
+        border-radius: 5px;
+    }
+.btn-descarga {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.btn-descarga:hover {
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+.box {
+    width: 600px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 10%;
+    padding: 20px;
+     color: white;
+     text-align: center;
+     border-radius: 15px;
+}
+.box-img {
+    border-radius: 50%;
+    padding: 0px;
+}
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20px;
+}
+.box h2 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.box p {
+    text-align: justify;
+}
+.box ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.box ul li {
+    display: inline-block;
+}
+.box ul li a {
+    color: white;
+    font-size: 45px;
+    padding: 10px 5px;
+    display: block;
+    transition: all 0.5s ease-in-out;
+}
+.box ul li a:hover {
+    color: #b9b9b9;
+    transform: scale(1.1);
+}
+.footer {
+    background: #51d1f6;
+    padding: 4rem 0;
+    text-align: center;
+}
+@media (max-width: 767px) {
+    .vermenu {
+        display: block;
+        cursor: pointer;
+    }
+    .navigation {
+       width: 100%; 
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 0;
+        transition: all 0.5s ease-in-out;         
+    }
+    .navigation ul li a:hover {
+        color: #b9b9b9;
+        transform: scale(1.1);
+        background: rgba(0, 0, 0, .4);
+        color: white;
+        border-radius: 5px;
+    }
+}
