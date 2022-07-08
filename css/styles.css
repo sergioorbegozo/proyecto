@@ -57,6 +57,20 @@ body {
         color: white;
         border-radius: 5px;
     }
+.certificaciones {
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    width: auto;
+    margin: auto;
+    font-size: 13px;
+ }
+ .certificaciones p {
+    padding-left: 1em;
+ }
+
 .btn-descarga {
     color: white;
     font-size: 45px;
