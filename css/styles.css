@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 body {
     background: url('../img/asperger.jpg') no-repeat;
     background-size: 1060px 550px;
-    background-color: #51d1f6;
+    background-color: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); 
     font-family: 'Century Gothic', sans-serif;
     margin: 0;
 }
@@ -16,7 +17,9 @@ body {
     margin: 0 auto;
 }
 .header {
-    background: #51d1f6;
+    display: flex;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+    -webkit-text-stroke: 0.5px black;
     color: white;
     padding: 1rem 0;
     position: fixed;
@@ -24,6 +27,7 @@ body {
     top: 0;
     right: 0;
     text-align: center;
+    justify-content: center;
 }
     .header a {
         color: white;
@@ -82,8 +86,18 @@ body {
     color: #b9b9b9;
     transform: scale(1.1);
 }
+.form-contact {
+    background: transparent;
+    width: 50%;
+    display: grid;
+    margin: auto;
+    max-width: 400px;
+    grid-auto-columns: 100%;
+    border-radius: 1em;
+}
 .box {
     width: 600px;
+    display: block;
     background: rgba(0, 0, 0, .4);
     margin: 0 auto;
     margin-top: 10%;
@@ -129,8 +143,9 @@ body {
     color: #b9b9b9;
     transform: scale(1.1);
 }
+
 .footer {
-    background: #51d1f6;
+    background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
     padding: 4rem 0;
     text-align: center;
 }
