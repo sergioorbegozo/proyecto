@@ -1,14 +1,14 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 body {
     background: url('../img/asperger.jpg') no-repeat;
     background-size: 1060px 550px;
     background-color: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%); 
-    font-family: 'Century Gothic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
 .container {
